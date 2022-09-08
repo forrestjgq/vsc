@@ -29,5 +29,6 @@
 | c-k B             | toggle activity bar                                                     |
 | as-Enter          | auto fix                                                                |
 | c-.               | quick fix                                                               |
+| c-T               | goto symbols in workspace                                               |
 
 
