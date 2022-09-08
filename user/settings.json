@@ -1,0 +1,16 @@
+{
+    "window.zoomLevel": 2,
+    "python.condaPath": "/home/gqjiang/anaconda3/bin/conda",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "editor.minimap.enabled": false,
+    "window.customMenuBarAltFocus": false,
+    "docker.containers.description": [
+        "ContainerName",
+        "Status"
+    ],
+    "docker.containers.groupBy": "Tag",
+    "cmake.configureOnOpen": false,
+    "editor.hover.enabled": false,
+    "go.lintTool": "golangci-lint",
+    "workbench.activityBar.visible": false
+}
