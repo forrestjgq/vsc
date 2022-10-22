@@ -1,19 +1,22 @@
 
 # keyboard
 
-| key               |          | usage                                                                   |
+| key               | category | usage                                                                   |
 | -                 | -        | -                                                                       |
 | a-,/.             | navigate | backward/forward                                                        |
 | a-b               | navigate | go to definition                                                        |
 | cs-./as-l         | navigate | show file structure and use k/j to navigate, breadcrumbs.focusAndSelect |
 | a-\`              | navigate | focus active editor group                                               |
-| c-T               | navigate | goto symbols in workspace                                               |
+| H/L               | navigate | switch to previous/next editor                                          |
 | -                 | -        | -                                                                       |
 | as-7              | search   | find all reference                                                      |
 | as-UP             | search   | go to previous reference                                                |
 | as-DOWN           | search   | go to next reference                                                    |
 | s-F12             | search   | go to reference                                                         |
-| cs-o              |          | goto symbol, or c-p with @, add : to sort                               |
+| cs-o              |          | go to symbol, or c-p with @, add : to sort                              |
+| E/c-T             | navigate | goto symbols in workspace                                               |
+| @/c-e             |          | go to file                                                              |
+| K/cs-p            | navigate | show commands                                                           |
 | -                 | -        | -                                                                       |
 | F7                | debug    | build by cmake                                                          |
 | s-F7              | debug    | build specified target by cmake                                         |

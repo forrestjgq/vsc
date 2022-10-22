@@ -1,6 +1,6 @@
 {
     "window.zoomLevel": 2,
-    "python.condaPath": "/home/gqjiang/anaconda3/bin/conda",
+    "python.condaPath": "MyHome/anaconda3/bin/conda",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "editor.minimap.enabled": false,
     "window.customMenuBarAltFocus": false,
@@ -12,5 +12,74 @@
     "cmake.configureOnOpen": false,
     "editor.hover.enabled": false,
     "go.lintTool": "golangci-lint",
-    "workbench.activityBar.visible": false
+    "vim.cursorStylePerMode.insert": "line",
+    "go.toolsManagement.autoUpdate": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "editor.formatOnSaveMode": "file",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "MyHome/.vsc.vimrc",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "E"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "workbench.action.showCommands",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "@"
+            ],
+            "commands": [
+                "workbench.action.quickOpen",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "commands": [
+                "workbench.action.previousEditor",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "commands": [
+                "workbench.action.nextEditor",
+            ],
+            "silent": true
+        }
+    ],
+    "go.formatTool": "gofmt",
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go"
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "vim.easymotion": true,
+    "[python]": {
+        "editor.wordBasedSuggestions": false
+    },
+    "files.autoSave": "afterDelay",
+    "git.untrackedChanges": "separate",
+    "editor.formatOnSave": true,
+    "C_Cpp.autocompleteAddParentheses": true,
 }
